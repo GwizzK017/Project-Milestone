@@ -1,0 +1,895 @@
+body{
+    background-color: #4C4646;
+}
+
+.nav{
+    position: absolute;
+    width: 2009px;
+    height: 92px;
+    left: 0px;
+    top: 0px;
+    /*background: #9D9D9D;*/
+}
+
+.logo{
+    position: absolute;
+    width: 201px;
+    height: 61px;
+    left: 27px;
+    top: 15px;
+}
+
+#Recent{
+    position: absolute;
+    width: 245px;
+    height: 45px;
+    left: 360px;
+    top: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+
+#Popular{
+    position: absolute;
+    width: 237px;
+    height: 45px;
+    left: 677px;
+    top: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;  
+    color: #FFFFFF;
+}
+
+#About{
+    position: absolute;
+    width: 178px;
+    height: 45px;
+    left: 986px;
+    top: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+
+#Playlist{
+    position: absolute;
+    width: 155px;
+    height: 45px;
+    left: 1236px;
+    top: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+
+.search_rec{
+    box-sizing: border-box;
+    position: absolute;
+    width: 372px;
+    height: 64px;
+    left: 1586px;
+    top: 15px;
+    border: 3px solid #FFFFFF;
+    border-radius: 31.5px;
+}
+
+#search_text{
+    position: absolute;
+    width: 108px;
+    height: 31px;
+    left: 1619px;
+    top: 29px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+
+.search_icon{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 1891px;
+    top: 34px;
+    color: #FFFFFF;
+}
+
+.hero{
+    position: absolute;
+    width: 2009px;
+    height: 985px;
+    left: 0px;
+    top: 0px;
+    background: #D9D9D9;
+    background-image: url(assets/wunna.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.frame1{
+    position: absolute;
+    width: 900px;
+    height: 557px;
+    left: 128px;
+    top: 618px;
+    background: #B4B4B4;
+}
+
+.frame2{
+    position: absolute;
+    width: 1121px;
+    height: 835px;
+    left: 633px;
+    top: 618px;
+    background: #282626;
+}
+
+#FT_h2{
+    position: absolute;
+    width: 323px;
+    height: 60px;
+    left: 1052px;
+    top: 647px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+#DV_h3{
+    position: absolute;
+    width: 269px;
+    height: 66px;
+    left: 1052px;
+    top: 721px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 66px;
+    color: #FFFFFF;
+}
+
+#DV_des{
+    position: absolute;
+    width: 686px;
+    height: 501px;
+    left: 1052px;
+    top: 821px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    color: #FFFFFF;
+}
+
+.left_arrow{
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    left: 1562px;
+    top: 1361px;
+    color: #9DB74B;
+}
+
+.right_arrow{
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    left: 1641px;
+    top: 1357px;
+    color: #9DB74B;
+}
+
+#recent_h1{
+    position: absolute;
+    width: 295px;
+    height: 51px;
+    left: 128px;
+    top: 1622px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 51px;
+    color: #FFFFFF;
+}
+
+.album1{
+    position: absolute;
+    width: 399px;
+    height: 394px;
+    left: 128px;
+    top: 1716px;
+    background: #D9D9D9;
+    background-image: url(assets/attachment-cordae-birds-eye.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.album2{
+    position: absolute;
+    width: 399px;
+    height: 394px;
+    left: 583px;
+    top: 1716px;
+    background: #D9D9D9;    
+    background-image: url(assets/donda\ 2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.album3{
+    position: absolute;
+    width: 399px;
+    height: 394px;
+    left: 1038px;
+    top: 1716px;
+    background: #D9D9D9;  
+    background-image: url(assets/Drake-Certified-Lover-Boy.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.album4{
+    position: absolute;
+    width: 400px;
+    height: 394px;
+    left: 1493px;
+    top: 1716px;
+    background: #D9D9D9;   
+    background-image: url(assets/montero.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#popular_h1{
+    position: absolute;
+    width: 299px;
+    height: 51px;
+    left: 128px;
+    top: 2161px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 51px;
+    color: #FFFFFF;
+}
+
+.album5{
+    position: absolute;
+    width: 399px;
+    height: 395px;
+    left: 128px;
+    top: 2264px;
+    background: #D9D9D9;    
+    background-image: url(assets/ds4ever\ gunna.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.album6{
+    position: absolute;
+    width: 399px;
+    height: 395px;
+    left: 583px;
+    top: 2264px;
+    background: #D9D9D9;   
+    background-image: url(assets/my\ turn\ lil\ baby.webp);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.album7{
+    position: absolute;
+    width: 399px;
+    height: 395px;
+    left: 1038px;
+    top: 2264px;
+    background: #D9D9D9; 
+    background-image: url(assets/somnyama.webp);
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+.album8{
+    position: absolute;
+    width: 400px;
+    height: 395px;
+    left: 1493px;
+    top: 2264px;
+    background: #D9D9D9;   
+    background-image: url(assets/central\ cee.webp);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.album9{
+    position: absolute;
+    width: 399px;
+    height: 394px;
+    left: 128px;
+    top: 2755px;
+    background: #D9D9D9;   
+    background-image: url(assets/starlight.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.album10{
+    position: absolute;
+    width: 399px;
+    height: 394px;
+    left: 583px;
+    top: 2755px;
+    background: #D9D9D9;
+    background-image: url(assets/kendrick\ l.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.album11{
+    position: absolute;
+    width: 399px;
+    height: 394px;
+    left: 1038px;
+    top: 2755px;
+    background: #D9D9D9;    
+    background-image: url(assets/burna\ boy.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.album12{
+    position: absolute;
+    width: 399px;
+    height: 394px;
+    left: 1495px;
+    top: 2755px;
+    background: #D9D9D9;    
+    background-image: url(assets/wunna.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer1{
+    position: absolute;
+    width: 2009px;
+    height: 125px;
+    left: 0px;
+    top: 3245px;
+    background: #0B0C10;
+}
+
+#footer_stream{
+    position: absolute;
+    width: 122px;
+    height: 45px;
+    left: 118px;
+    top: 45px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+
+.footer_circle{
+    position: absolute;
+    left: 13.09%;
+    right: 85.56%;
+    top:  48px;
+    bottom: 1.45%;
+    border: 3px solid #FFFFFF;
+    border-radius: 3px #ffffff;
+}
+
+#footer_c{
+    position: absolute;
+    width: 24px;
+    height: 40px;
+    left: 266px;
+    top: 48px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+
+#footer_year{
+    position: absolute;
+    width: 66px;
+    height: 45px;
+    left: 303px;
+    top: 45px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+
+.youtube_icon{
+    position: absolute;
+    left: 75.96%;
+    right: 20.86%;
+    top: 45px;
+    bottom: 0.71%;
+    border: 2px solid #FFFFFF;
+}
+
+/*about page*/
+
+.nav_bar{
+    position: absolute;
+    width: 2009px;
+    height: 92px;
+    left: 0px;
+    top: 0px;
+    background: #000000;
+}
+
+.block_A{
+    position: absolute;
+    width: 814px;
+    height: 307px;
+    left: 168px;
+    top: 327px;
+    /*background: #D9D9D9;*/
+}
+
+#TIU{
+    position: absolute;
+    width: 140px;
+    height: 45px;
+    left: 8px;
+    top: 2px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    color:
+    #887159;
+}
+
+#stream_h1{
+    position: absolute;
+    width: 182px;
+    height: 55px;
+    left: 8px;
+    top: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 66px;
+    color: 
+    #887159;
+}
+
+#about_descr{
+    position: absolute;
+    width: 814px;
+    height: 180px;
+    left: 8px;
+    top: 98px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+
+.block_B{
+    position: absolute;
+    width: 808px;
+    height: 765px;
+    left: 1030px;
+    top: 327px;
+    background: #417586;
+}
+
+#GIT{
+    position: absolute;
+    width: 207px;
+    height: 45px;
+    left: 42px;
+    top: 45px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+
+.inputA{
+    position: absolute;
+    width: 722px;
+    height: 69px;
+    left: 42px;
+    top: 147px;
+    background: #6C6B81;
+    border-radius: 34.5px;
+}
+
+.inputB{
+    position: absolute;
+    width: 722px;
+    height: 69px;
+    left: 42px;
+    top: 277px;
+    background: #6C6B81;
+    border-radius: 34.5px;
+}
+
+.inputC{
+    position: absolute;
+    width: 722px;
+    height: 69px;
+    left: 42px;
+    top: 407px;
+    background: #6C6B81;
+    border-radius: 34.5px;
+}
+
+.inputD{
+    position: absolute;
+    width: 722px;
+    height: 137px;
+    left: 42px;
+    top: 507px;
+    background: #6C6B81;
+    border-radius: 34.5px;
+}
+
+.play_button{
+    position: absolute;
+    width: 315px;
+    height: 96px;
+    left: 469px;
+    top: 660px;
+    background: #B6F3E8;
+    border-radius: 50.5px;
+}
+
+/*#play{
+    position: absolute;
+    width: 104px;
+    height: 60px;
+    left: 469px;
+    top: 660px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 60px;
+    color: #0B0C10;
+}*/
+
+.block_C{
+    position: absolute;
+    width: 584px;
+    height: 71px;
+    left: 179px;
+    top: 708px;
+    /*background: #D9D9D9;*/
+}
+
+.email_icon{
+    position: absolute;
+    width: 71px;
+    height: 71px;
+    left: 9px;
+    top: 8px;
+}
+
+#email{
+    position: absolute;
+    width: 198px;
+    height: 38px;
+    left: 71px;
+    top: 18px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+
+.phone_icon{
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    left: 301px;
+    top: 8px;
+}
+
+#phone_number{
+    position: absolute;
+    width: 179px;
+    height: 38px;
+    left: 361px;
+    top: 18px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+
+.block_D{
+    position: absolute;
+    width: 812px;
+    height: 288px;
+    left: 179px;
+    top: 813px;
+    background: #D9D9D9;
+}
+
+.footer2{
+    position: absolute;
+    width: 2009px;
+    height: 125px;
+    left: 0px;
+    top: 1304px;
+    background: #0B0C10;
+}
+
+#footer_stream2{
+    position: absolute;
+    width: 122px;
+    height: 45px;
+    left: 128px;
+    top: 45px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+
+#footer_year2{
+    position: absolute;
+    width: 66px;
+    height: 45px;
+    left: 303px;
+    top: 45px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+
+/*playlist page*/
+
+.playlist_header{
+    position: absolute;
+    width: 650px;
+    height: 48px;
+    left: 186px;
+    top: 237px;
+    /*background: #D9D9D9;*/
+}
+
+#my_playlists{
+    position: absolute;
+    width: 203px;
+    height: 51px;
+   /* left: 186px;
+    top: 237px; */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 51px;
+    color: #FFFFFF;
+}
+
+.mix_img{
+    position: absolute;
+    width: 650px;
+    height: 649px;
+    left: 186px;
+    top: 346px;
+    background: #D9D9D9;
+    background-image: url(assets/my\ turn\ lil\ baby.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Favourites{
+    position: absolute;
+    width: 590px;
+    height: 143px;
+    left: 34px;
+    top: 181px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 95px;
+    line-height: 142px;
+    color: #FFFFFF;
+}
+
+#Mix{
+    position: absolute;
+    width: 150px;
+    height: 120px;
+    left: 246px;
+    top: 281px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 120px;
+    color: #FFFFFF;
+}
+
+.small_stream{
+    position: absolute;
+    width: 79px;
+    height: 79px;
+    left: 286px;
+    top: 411px;
+}
+
+.all_songs{
+    position: absolute;
+    width: 952px;
+    height: 677px;
+    left: 933px;
+    top: 367px;
+    background: #D9D9D9;
+    border-radius: 43px;
+}
+
+.music_playing{
+    position: absolute;
+    width: 1761px;
+    height: 48px;
+    left: 124px;
+    top: 1169px;
+    background: #D9D9D9;
+}
+
+.music_playingimg{
+    position: absolute;
+    width: 341px;
+    height: 99px;
+    left: 124px;
+    top: 1254px;
+    /*background: #D9D9D9;*/
+}
+
+.current_song{
+    position: absolute;
+    width: 95px;
+    height: 99px;
+    background: #282626;
+    background-image: url(assets/starlight.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#starlight1{
+    position: absolute;
+    width: 180px;
+    height: 60px;
+    left: 117px;
+    top: 2px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+#dave1{
+    position: absolute;
+    width: 195px;
+    height: 45px;
+    left: 117px;
+    top: 48px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+
+.play_sect{
+    position: absolute;
+    width: 388px;
+    height: 136px;
+    left: 824px;
+    top: 1234px;
+    /*background: #D9D9D9;*/
+}
+
+.pause_button{
+    position: absolute;
+    width: 136px;
+    height: 136px;
+    left: 140px;
+    top: 20px;
+}
+
+.prev_left{
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 1px;
+    top: 45px;
+}
+
+.next_right{
+    position: absolute;
+    left: 86%;
+    
+    top: 45px;
+    bottom: 6.2%;
+}
+
+.time_sect{
+    position: absolute;
+    width: 173px;
+    height: 57px;
+    left: 1688px;
+    top: 1274px;
+    /*background: #D9D9D9;*/
+}
+
+#time{
+    position: absolute;
+    width: 56px;
+    height: 38px;
+    left: 1 px;
+    top: 12px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+
+.vert_3dot{ 
+position: absolute;
+width: 57px;
+height: 57px;
+left: 132px;
+top: 10px;
+}
